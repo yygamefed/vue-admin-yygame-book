@@ -22,25 +22,21 @@
 | pageNumberParamer| 是 | Array | 数据 |
 | pageSizeParamer| 是 | Array | 数据 |
 | pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
+| totalCountsKey| 是 | Array | 数据 |
+| totalPageKey | 是 | Array | 数据 |
+| totalKey| 是 | Array | 数据 |
+| rowsKey| 是 | Array | 数据 |
+| tableHeaders| 是 | Array | 数据 |
+| addBtn| 是 | Array | 数据 |
+| editBtn| 是 | Array | 数据 |
+| removeBtn| 是 | Array | 数据 |
 | title | 是 | Array | 数据 |
 | removeUrl| 是 | Array | 数据 |
-| pageNumberParamer| 是 | Array | 数据 |
-| pageSizeParamer| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| title | 是 | Array | 数据 |
-| removeUrl| 是 | Array | 数据 |
-| pageNumberParamer| 是 | Array | 数据 |
-| pageSizeParamer| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeParamer| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
+| hideOperate| 是 | Array | 数据 |
+| editOption| 是 | Array | 数据 |
+| searchBar| 是 | Array | 数据 |
+| inititalLoad| 是 | Array | 数据 |
+
 
 
 
