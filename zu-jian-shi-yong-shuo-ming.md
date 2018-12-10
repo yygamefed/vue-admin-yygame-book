@@ -29,7 +29,7 @@
 | value | 是 | string | 显示的表头中文 |
 | format | 否 | function | 传入 row,allData，函数应返回dom或字符串 |
 
-##### 插槽式使用
+**插槽式使用**
 
 
 
