@@ -12,22 +12,19 @@
 
 | 参数名 | 必选 | 类型 | 说明 |
 | :--- | :--- | :--- | --- |
-| title | 是 | Array | 数据 |
-
-
+| title | 是 | String | 表格标题 |
 | header | 是 | Array | 表头配置，可继承iview-table组件 |
-| queryUrl | 是 | Array | 数据 |
-| removeKey| 是 | Array | 数据 |
-| addUrl| 是 | Array | 数据 |
-| editUrl| 是 | Array | 数据 |
-| removeUrl| 是 | Array | 数据 |
-| pageNumberParamer| 是 | Array | 数据 |
-| pageSizeParamer| 是 | Array | 数据 |
-| pageSizeOpts| 是 | Array | 数据 |
-| totalCountsKey| 是 | Array | 数据 |
-| totalPageKey | 是 | Array | 数据 |
-| totalKey| 是 | Array | 数据 |
-| rowsKey| 是 | Array | 数据 |
+| queryUrl | 是 | String | 查询用的URL |
+| addUrl| 否 | Array | 添加数据请求的URL |
+| editUrl| 否 | Array | 编辑数据请求的URL |
+| removeUrl| 否 | Array | 删除数据请求的URL |
+| removeKey| 否 | String | 删除数据的标识参数，如id |
+| pageNumberParamer| 是 | String | 分页页码传参参数,如填pageNo，则请求/xxxx.do?pageNo=1 |
+| pageSizeParamer| 是 | String | 分页大小传参参数，如填pageSize,则请求/xxxx.do?pageSize=1 |
+| pageSizeOpts| 否 | Array | 分页器切换跨度，默认值[10,20,30,40]如果你需要显示全部，可以设置[10,20,9999]或[10,20,-1](取决于接口) |
+| totalCountsKey| *是 | String | 后台返回的总条数的字段，与总页数二选其一,如后台返回{data:{count:100}}则填'data.count' |
+| totalPageKey | *是 | String | 后台返回的总页数的字段,与总条数二选其一,如后台返回{data:{pageTotal:1}}则填'data.pageTotal' |
+| rowsKey| 是 | String | 后台返回数据的字段,如后台返回数据字段是{data:{rows:[....]}}则填 'data.rows' |
 | tableHeaders| 是 | Array | 数据 |
 | addBtn| 是 | Array | 数据 |
 | editBtn| 是 | Array | 数据 |
