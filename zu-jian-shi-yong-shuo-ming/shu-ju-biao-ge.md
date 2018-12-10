@@ -21,7 +21,7 @@
 | totalCountsKey| *是 | String | 后台返回的总条数的字段，与总页数二选其一,如后台返回{data:{count:100}}则填'data.count' |
 | totalPageKey | *是 | String | 后台返回的总页数的字段,与总条数二选其一,如后台返回{data:{pageTotal:1}}则填'data.pageTotal' |
 | rowsKey| 是 | String | 后台返回数据的字段,如后台返回数据字段是{data:{rows:[....]}}则填 'data.rows' |
-| 增删改功能|
+| 增删改功能| |   |  |
 | addUrl| 否 | Array | 添加数据请求的URL |
 | editUrl| 否 | Array | 编辑数据请求的URL |
 | removeUrl| 否 | Array | 删除数据请求的URL |
