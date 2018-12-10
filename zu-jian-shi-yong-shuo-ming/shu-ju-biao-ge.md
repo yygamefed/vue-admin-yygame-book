@@ -26,15 +26,13 @@
 | editUrl| 否 | Array | 编辑数据请求的URL |
 | removeUrl| 否 | Array | 删除数据请求的URL |
 | removeKey| 否 | String | 删除数据的标识参数，如id |
-| addBtn| 否 | Array | 数据 |
-| editBtn| 否 | Array | 数据 |
-| removeBtn| 否 | Array | 数据 |
-| title | 是 | Array | 数据 |
-| removeUrl| 是 | Array | 数据 |
-| hideOperate| 是 | Array | 数据 |
-| editOption| 是 | Array | 数据 |
-| searchBar| 是 | Array | 数据 |
-| inititalLoad| 是 | Array | 数据 |
+| addBtn| 否 | Boolean | 是否使用预设的增加按钮 |
+| editBtn| 否 | Boolean | 是否使用预设的编辑按钮 |
+| removeBtn| 否 | Boolean | 是否使用预设的删除按钮 |
+| hideOperate| 是 | Boolean | 是否隐藏操作列（表格有一列是操作列，包括编辑、删除以及自定义的按钮） |
+| editOption | 是 | Object | 编辑、增加的前后端传参方式配置 |
+| searchBar| 是 | Boolean | 是否创建搜索条，默认true |
+| inititalLoad| 是 | Boolean | 是否初始化时搜索一次表格，默认true |
 
 
 
