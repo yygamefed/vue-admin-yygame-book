@@ -1,6 +1,7 @@
 # 组件使用说明
 
-框架基于iview基础上，进一步对组件进行定制，各个定制的组件存放在@/src/common文件夹内
+框架基于iview基础上，进一步对组件进行定制，各个定制的组件存放在@/src/common文件夹内  
+插槽方式使用：即无需在js里写html代码，直接在template完成当前的操作
 
 ## 表格
 
@@ -12,7 +13,7 @@
 
 简单表格,不带分页
 
-![](/assets/simple-table.png)
+![](/assets/simple-tale.png)
 
 **参数：**
 
@@ -30,8 +31,43 @@
 | format | 否 | function | 传入 row,allData，函数应返回dom或字符串 |
 
 **插槽式使用**
+在配置好header后，无需配置format，在组件内添加 slot="需要设置格式的key",slot-scope="row"
 
-
+```text    
+<template>
+<SimpleTable
+            :header="header"
+            :data="tableData">
+            <!-************↓ 配置列模板 返回每行的数据值在row内返回*************** ->
+            <template slot="iver" slot-scope="row">
+              <a @click="goIverDetail(row.iver)">{{row.iver}}</a>
+            </template>
+            
+          </SimpleTable>
+</template>
+<script>
+export default {
+  data: function () {
+    return {
+      header: [
+        {
+          key: 'iver',
+          name: '版本号'
+        }
+      ]
+    }
+  },
+  mounted: function () {
+    // 在这里添加你的数据
+    this.tableData = [
+      {
+        iver: "demo"
+      }
+    ]
+  }
+}
+</script>
+```
 
 **事件：**
 
