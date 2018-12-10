@@ -71,7 +71,7 @@ mvn clean install
 ```bash
 mvn frontend:npm@npm-run-dev
 ```
-即可启动前端服务器
+即可启动前端服务器，开发过程中所有修改都会热更新应用到页面上，一般情况下自动更新，无需刷新页面
 
 
 ### 开始开发
