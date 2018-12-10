@@ -12,12 +12,14 @@
 
 | 参数名 | 必选 | 类型 | 说明 |
 | :--- | :--- | :--- | --- |
+| title | 是 | Array | 数据 |
+
+
 | header | 是 | Array | 表头配置，可继承iview-table组件 |
 | queryUrl | 是 | Array | 数据 |
 | removeKey| 是 | Array | 数据 |
 | addUrl| 是 | Array | 数据 |
 | editUrl| 是 | Array | 数据 |
-| title | 是 | Array | 数据 |
 | removeUrl| 是 | Array | 数据 |
 | pageNumberParamer| 是 | Array | 数据 |
 | pageSizeParamer| 是 | Array | 数据 |
